@@ -1,10 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'contactbook'
+set :application, 'exampleApp'
 set :repo_url, 'https://github.com/narender2031/exampleApp.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/contactbook'
+set :deploy_to, '/home/deploy/exampleApp'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
